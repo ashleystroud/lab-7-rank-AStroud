@@ -57,6 +57,12 @@ wsr_kermit
 #There is no significant difference in Kermit rankings before and after his talk( then add in statistical summary...)
 ```
 
+Pick a 'creator' and 'collaborators'
+
+-one person created a repo called 'iris-graph'
+-clone to Rstudio
+-using the Iris dataset that exists in R, collaboratively create a scatterplot (geom_point) of petal.length vs petal.width
+-point colors, styles (pch), axes labels, totle, facet wrap to separate the graphs by species
 
 
 
