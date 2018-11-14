@@ -42,3 +42,32 @@ MwU_kermit
 
 ```
 
+Collaborator(Kaitlyn)
+
+Is there a significant difference in Kermit ranks for pre-talk and post-talk scores(ignoring all other variables)?
+
+
+Null: There is no difference
+
+```{r}
+
+wsr_kermit <- wilcox.test(kermit$Score.pre, kermit$Score.post, paired=TRUE)
+wsr_kermit
+
+#There is no significant difference in Kermit rankings before and after his talk( then add in statistical summary...)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
