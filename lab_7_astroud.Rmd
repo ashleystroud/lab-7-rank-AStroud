@@ -26,3 +26,19 @@ kermit_hist
   
 ```
 
+Creator: doing some rank-based tests
+
+```{r}
+
+# is there a significant difference in pre-talks kermit scores for males and females?
+
+# unpaired data: Mann-Whitney U
+# look at pre as a function of gender,  result is, cannot compute p value with ties, that is just saying...?
+
+MwU_kermit <- kermit %>% 
+  wilcox.test(Score.pre ~ Gender, data = .)
+
+MwU_kermit
+
+```
+
