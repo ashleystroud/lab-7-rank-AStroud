@@ -1,0 +1,13 @@
+---
+title: "Lab7 rankbased test"
+author: "Ashley Stroud"
+date: "November 14, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hello this Ashley, and I created this repo and markdown document. 
+
